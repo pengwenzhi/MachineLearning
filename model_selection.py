@@ -1,6 +1,6 @@
 import numpy as np
 def train_test_split(X,Y,test_ratio=0.2,seed=None):
-    assert X.shape[0]==y.shape[0],\
+    assert X.shape[0]==Y.shape[0],\
         "the size of X must be equal to the size of Y"
     assert 0.0<=test_ratio<=1.0,\
         "test_ratio must be valid"
